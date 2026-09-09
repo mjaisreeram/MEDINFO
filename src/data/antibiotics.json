@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Amoxicillin",
+        "class": "Penicillin",
+        "usage": "Respiratory tract infections, UTI, Ear infections",
+        "resistance_level": "High",
+        "resistance_detail": " > 70% resistance in E. coli strains in India.",
+        "warning": "Commonly misused for viral cold/flu. Ineffective against viral infections.",
+        "alternatives": "Co-amoxiclav (only if prescribed)"
+    },
+    {
+        "id": 2,
+        "name": "Ciprofloxacin",
+        "class": "Fluoroquinolone",
+        "usage": "Urinary Tract Infections (UTI), Typhoid",
+        "resistance_level": "Critical",
+        "resistance_detail": "High resistance observed in Salmonella typhi and E. coli across varied Indian demographics.",
+        "warning": "Can cause tendon rupture. Not recommended for children.",
+        "alternatives": "Nitrofurantoin (for simple UTI)"
+    },
+    {
+        "id": 3,
+        "name": "Azithromycin",
+        "class": "Macrolide",
+        "usage": "Throat infections, Pneumonia, Typhoid",
+        "resistance_level": "Medium",
+        "resistance_detail": "Rising resistance due to massive overuse during COVID-19 pandemic.",
+        "warning": "Can cause heart rhythm issues (QT prolongation).",
+        "alternatives": "Doxycycline"
+    },
+    {
+        "id": 4,
+        "name": "Meropenem",
+        "class": "Carbapenem",
+        "usage": "Severe hospital-acquired infections, Meningitis",
+        "resistance_level": "Rising",
+        "resistance_detail": "Last-resort antibiotic. Resistance (CRE) is a major public health emergency in Indian ICUs.",
+        "warning": "HOSPITAL USE ONLY. Never use at home.",
+        "alternatives": "Colistin (Toxic, absolute last resort)"
+    },
+    {
+        "id": 5,
+        "name": "Doxycycline",
+        "class": "Tetracycline",
+        "usage": "Acne, Malaria prophylaxis, Respiratory infections",
+        "resistance_level": "Low",
+        "resistance_detail": "Remains effective for manycommunity-acquired infections.",
+        "warning": "Causes photosensitivity. Avoid sun exposure.",
+        "alternatives": "Minocycline"
+    }
+]

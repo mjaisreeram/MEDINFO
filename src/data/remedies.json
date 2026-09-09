@@ -1,0 +1,70 @@
+[
+    {
+        "id": 1,
+        "ailment": "Sore Throat",
+        "remedies": [
+            {
+                "name": "Salt Water Gargle",
+                "description": "Mix 1/2 teaspoon of salt in warm water and gargle for 30 seconds. Helps reduce inflammation and kill bacteria.",
+                "ingredients": [
+                    "Salt",
+                    "Warm Water"
+                ],
+                "duration": "3-4 times a day"
+            },
+            {
+                "name": "Honey & Ginger Tea",
+                "description": "Ginger has anti-inflammatory properties, and honey soothes the throat.",
+                "ingredients": [
+                    "Ginger",
+                    "Honey",
+                    "Tea/Warm Water"
+                ],
+                "duration": "Twice daily"
+            }
+        ],
+        "warning": "If accompanied by high fever or difficulty breathing, consult a doctor immediately."
+    },
+    {
+        "id": 2,
+        "ailment": "Common Cold (Runny Nose)",
+        "remedies": [
+            {
+                "name": "Steam Inhalation",
+                "description": "Inhale steam from a bowl of hot water to clear nasal passages.",
+                "ingredients": [
+                    "Hot Water",
+                    "Optional: Eucalyptus Oil"
+                ],
+                "duration": "10-15 minutes, twice a day"
+            },
+            {
+                "name": "Turmeric Milk (Haldi Doodh)",
+                "description": "Traditional immunity booster with anti-inflammatory properties.",
+                "ingredients": [
+                    "Milk",
+                    "Turmeric Powder",
+                    "Black Pepper"
+                ],
+                "duration": "Before bed"
+            }
+        ],
+        "warning": "Steam can cause burns; be careful. Not for very young children."
+    },
+    {
+        "id": 3,
+        "ailment": "Mild Cough",
+        "remedies": [
+            {
+                "name": "Honey & Black Pepper",
+                "description": "Lick a spoon of honey with a pinch of black pepper.",
+                "ingredients": [
+                    "Honey",
+                    "Black Pepper"
+                ],
+                "duration": "As needed"
+            }
+        ],
+        "warning": "Persistent cough > 2 weeks requires TB screening."
+    }
+]

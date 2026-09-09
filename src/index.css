@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-slate-900 antialiased font-sans selection:bg-orange-100 selection:text-orange-900;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply tracking-tight font-semibold text-slate-900;
+  }
+}
+
+@layer utilities {
+  .btn-orange {
+    @apply bg-orange-500 hover:bg-orange-600 active:bg-orange-700 text-white font-medium px-5 py-3 rounded-xl transition-colors shadow-sm inline-flex items-center justify-center gap-2 text-sm;
+  }
+
+  .btn-outline-orange {
+    @apply bg-white hover:bg-orange-50 text-orange-600 border border-orange-500 font-medium px-5 py-3 rounded-xl transition-colors inline-flex items-center justify-center gap-2 text-sm;
+  }
+
+  .card-flat {
+    @apply bg-white border border-slate-200 rounded-2xl p-5 shadow-sm transition-all hover:border-orange-300;
+  }
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "69b39839f584f4d8af5a4d1e",
+    "id": 1,
+    "name": "Amoxicillin",
+    "class": "Penicillin",
+    "usage": "Respiratory tract infections, UTI, Ear infections",
+    "resistance_level": "High",
+    "resistance_detail": " > 70% resistance in E. coli strains in India.",
+    "warning": "Commonly misused for viral cold/flu. Ineffective against viral infections.",
+    "alternatives": "Co-amoxiclav (only if prescribed)"
+  },
+  {
+    "_id": "69b39839f584f4d8af5a4d1f",
+    "id": 2,
+    "name": "Ciprofloxacin",
+    "class": "Fluoroquinolone",
+    "usage": "Urinary Tract Infections (UTI), Typhoid",
+    "resistance_level": "Critical",
+    "resistance_detail": "High resistance observed in Salmonella typhi and E. coli across varied Indian demographics.",
+    "warning": "Can cause tendon rupture. Not recommended for children.",
+    "alternatives": "Nitrofurantoin (for simple UTI)"
+  }
+]
